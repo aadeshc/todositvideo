@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from "../../images/logo.png"
+
+import { FaPizzaSlice } from 'react-icons/fa'
 export const Headers = () => {
     return (
         <div>
@@ -10,10 +12,10 @@ export const Headers = () => {
                     </div>
                     <div className="Settings"> <ul>
                         <li>+</li>
-                        <li>Pizza Slice</li>
+                        <li><FaPizzaSlice /></li>
                     </ul> </div>
                 </nav>
-                    I am header</header>
+            </header>
 
         </div>
     )
